@@ -14,7 +14,7 @@ const router = new VueRouter({
   routes:[
     {path: "/movies", component:MoviesDb},
     {path: "/" , component:Homepage},
-    {path: "/movie:id", component: MovieDetail}
+    {path: "/movie/:id", component: MovieDetail}
   ],
   mode:'history'
   
